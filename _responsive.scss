@@ -1,0 +1,259 @@
+@media only screen and (min-width: 768px) {
+    //  home --------
+
+    .page-wrapper{
+
+        .main-section{
+            padding-top: 40%;
+
+            #logo-text{
+                font-size: 3em;
+            }
+        }
+
+        .bottom-section{
+            .footer{
+                padding-top: 58vh;
+            }
+        }
+        
+
+    }
+    .copyright{
+        font-size: 1.5em;
+    }
+
+    .logo{
+        width: 15vw;
+    }
+    .bars{
+        display: none;
+        // font-size: 
+    }
+    #myLinks{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0;
+
+        width: 60vw;
+        .nav-item{
+            font-size: 3vw;
+        }
+    }
+
+    .nav-bar{
+        padding: 2% 5%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        
+
+    }
+
+    .about-section, .contact-section, .projects-section{
+        position: absolute;
+        top: 18vh;
+        left: 10vw;
+        width: 80vw;
+    
+        
+    }
+
+    .details-section{
+
+        p{
+            font-size: 2em;
+        }
+
+        i{
+            font-size: 2.25em
+        }
+
+        .fa-mobile{
+            padding-left: 1.25%;
+        }
+    }
+
+    .c-fields{
+        label{
+            font-size: 2em;
+        }
+
+        input, textarea{
+            font-size: 2rem;
+        }
+
+        textarea{
+            height: 15vh;
+        }
+    }
+
+
+    .projects{
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: wrap;
+        column-count: 2;
+
+        .card{
+            // width: 45%;
+            // height: 20vh;
+            margin: 0 auto 7%;
+        break-inside: avoid;
+
+
+            .card-text{
+                margin: 6% 3%;
+                font-size: 1.75em;
+            }
+        }
+
+        
+    }
+
+    // about
+
+    
+
+
+    .info-section{
+        margin-bottom: 5%;
+
+        
+
+        .about-content{
+            font-size: 1.5em;
+            column-count: 2;
+        }
+    }
+    
+
+
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .page-wrapper{
+
+        .main-section{
+            padding-top: 12vh;
+            width: 40vw;
+            
+
+            #logo{
+                margin: 0 auto;
+
+            }
+
+        }
+        .bottom-section{
+            .footer{
+                padding-top: 30vh;
+            }
+        }
+    }
+
+    .logo{
+        width: 10vw;
+    }
+
+    .about-section, .contact-section, .projects-section{
+        position: absolute;
+        top: 25vh;
+        left: 10vw;
+        // width: 60vw;
+        // margin: 0 auto;
+    
+        
+    }
+    .about-section{
+        padding-bottom: 10%;
+    }
+
+    .contact-section{
+        padding-bottom: 15vh;
+    }
+
+    .nav-bar{
+        padding: 5% 2%;
+    }
+
+    #myLinks{
+        width: 40vw;
+    }
+
+    .contact-div{
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    .details-section{
+
+        i{
+            width: 0.75vw;
+        }
+
+        .fa-mobile{
+            padding-left: 0.68%;
+        }
+    }
+
+    .submit{
+        font-size: 2em;
+        padding: 2%;
+    }
+
+    .projects-width{
+        width: 50vw;
+        margin: 0 auto;
+
+        .projects{
+            column-count: 3;
+
+            .card{
+                // height: 30vh;
+            }
+        }
+    }
+
+    .about-width{
+        width: 50vw;
+        margin: 0 auto;
+    } 
+
+    .comp-images-div{
+        // align-items: flex-start;
+        // flex-direction: column;
+        -webkit-column-count: 3;
+        column-gap: 2vw; 
+        column-count: 2;
+        width: 100%;
+        display: block;
+        .comp-images{
+            width: 100%;
+            // object-fit: contain;
+            height: auto;
+        }
+    }
+
+    .info-section{
+
+        
+
+        .about-content{
+            column-count: 2;
+        }
+    }
+
+    
+
+    
+
+
+
+}
+

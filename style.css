@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.copyright {
+  color: #34d698;
+  font-family: mono45-headline, monospace;
+}
+
+.page-wrapper .main-section {
+  padding-top: 65%;
+  height: 101vh;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.page-wrapper #logo-text {
+  font-family: mono45-headline, monospace;
+  font-weight: 300;
+}
+
+.page-wrapper .bottom-section {
+  height: 100vh;
+  padding-top: 10vh;
+  background-color: #000;
+}
+
+.page-wrapper .item-text {
+  font-family: mono45-headline, monospace;
+  font-size: 5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-wrapper .item-text:hover {
+  color: #34d698;
+}
+
+.page-wrapper .section-item {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 3%;
+  left: 3%;
+  font-size: 0.75em;
+}
+
+#myLinks {
+  display: none;
+  list-style-type: none;
+  text-align: right;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+#myLinks .nav-item {
+  text-decoration: none;
+  font-family: mono45-headline, monospace;
+  color: #000;
+  font-size: 5em;
+}
+
+#myLinks .nav-item:hover {
+  color: #34d698;
+}
+
+.nav-bar {
+  padding: 10%;
+  height: 20vh;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+}
+
+.bars {
+  color: #34d698;
+  font-size: 20vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10% 10%;
+}
+
+.logo {
+  width: 30vw;
+}
+
+.page-wrapper-about {
+  min-height: 100vh;
+}
+
+.about-section, .contact-section, .projects-section {
+  position: absolute;
+  top: 35vw;
+  left: 10vw;
+  width: 80vw;
+}
+
+.comp-images-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5vh;
+}
+
+.comp-images-div .comp-images {
+  width: 80vw;
+  margin-bottom: 5vh;
+}
+
+.details-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.details-section i {
+  width: 5vw;
+  font-size: 1.5em;
+  color: #34d698;
+}
+
+.details-section p {
+  padding-left: 5vw;
+  font-size: 1.25em;
+}
+
+.details-section .fa-mobile {
+  padding-left: 1.5%;
+}
+
+.d-top {
+  padding-bottom: 2vh;
+}
+
+.c-details {
+  font-family: serifa, serif;
+  padding-bottom: 4vh;
+}
+
+.c-fields label {
+  font-family: mono45-headline, monospace;
+  font-size: 1.25em;
+}
+
+.c-fields input, .c-fields textarea {
+  border: 1px solid #34d698;
+  resize: none;
+  padding: 2%;
+  margin-bottom: 2%;
+  font-family: serifa, serif;
+}
+
+.c-fields textarea {
+  height: 10vh;
+}
+
+.c-fields .form-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  font-family: mono45-headline, monospace;
+  font-weight: 300;
+  font-size: 4em;
+  padding-bottom: 5vh;
+}
+
+.submit {
+  font-family: mono45-headline, monospace;
+  font-size: 3em;
+  background-color: #fff;
+  border: 2px solid #34d698;
+  padding: 3%;
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.submit:hover {
+  background-color: #34d698;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.projects .card {
+  border: 1px solid #34d698;
+  padding: 5%;
+  margin: 0 auto 15%;
+  cursor: pointer;
+}
+
+.projects .card .project-image {
+  width: 100%;
+  height: auto;
+}
+
+.projects .card .card-text {
+  font-family: serifa, serif;
+  margin: 5% 3%;
+  font-size: 1.5em;
+  color: #34d698;
+}
+
+.info-section {
+  margin-bottom: 10%;
+}
+
+.info-section .heading {
+  font-family: mono45-headline, monospace;
+  font-weight: 300;
+  font-size: 2em;
+  color: #34d698;
+}
+
+.info-section .about-content {
+  font-family: serifa, serif;
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width: 768px) {
+  .page-wrapper .main-section {
+    padding-top: 40%;
+  }
+  .page-wrapper .main-section #logo-text {
+    font-size: 3em;
+  }
+  .page-wrapper .bottom-section .footer {
+    padding-top: 58vh;
+  }
+  .copyright {
+    font-size: 1.5em;
+  }
+  .logo {
+    width: 15vw;
+  }
+  .bars {
+    display: none;
+  }
+  #myLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+    width: 60vw;
+  }
+  #myLinks .nav-item {
+    font-size: 3vw;
+  }
+  .nav-bar {
+    padding: 2% 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15vh;
+  }
+  .about-section, .contact-section, .projects-section {
+    position: absolute;
+    top: 18vh;
+    left: 10vw;
+    width: 80vw;
+  }
+  .details-section p {
+    font-size: 2em;
+  }
+  .details-section i {
+    font-size: 2.25em;
+  }
+  .details-section .fa-mobile {
+    padding-left: 1.25%;
+  }
+  .c-fields label {
+    font-size: 2em;
+  }
+  .c-fields input, .c-fields textarea {
+    font-size: 2rem;
+  }
+  .c-fields textarea {
+    height: 15vh;
+  }
+  .projects {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  .projects .card {
+    margin: 0 auto 7%;
+    -webkit-column-break-inside: avoid;
+            break-inside: avoid;
+  }
+  .projects .card .card-text {
+    margin: 6% 3%;
+    font-size: 1.75em;
+  }
+  .info-section {
+    margin-bottom: 5%;
+  }
+  .info-section .about-content {
+    font-size: 1.5em;
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .page-wrapper .main-section {
+    padding-top: 12vh;
+    width: 40vw;
+  }
+  .page-wrapper .main-section #logo {
+    margin: 0 auto;
+  }
+  .page-wrapper .bottom-section .footer {
+    padding-top: 30vh;
+  }
+  .logo {
+    width: 10vw;
+  }
+  .about-section, .contact-section, .projects-section {
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+  }
+  .about-section {
+    padding-bottom: 10%;
+  }
+  .contact-section {
+    padding-bottom: 15vh;
+  }
+  .nav-bar {
+    padding: 5% 2%;
+  }
+  #myLinks {
+    width: 40vw;
+  }
+  .contact-div {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .details-section i {
+    width: 0.75vw;
+  }
+  .details-section .fa-mobile {
+    padding-left: 0.68%;
+  }
+  .submit {
+    font-size: 2em;
+    padding: 2%;
+  }
+  .projects-width {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .projects-width .projects {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+  .about-width {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  .comp-images-div {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 2vw;
+            column-gap: 2vw;
+    -webkit-column-count: 2;
+            column-count: 2;
+    width: 100%;
+    display: block;
+  }
+  .comp-images-div .comp-images {
+    width: 100%;
+    height: auto;
+  }
+  .info-section .about-content {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+/*# sourceMappingURL=style.css.map */

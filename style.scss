@@ -1,0 +1,300 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.copyright{
+    color: #34d698;
+    font-family: mono45-headline, monospace;
+
+
+}
+
+.page-wrapper{ 
+    
+    // home ---------------------
+
+    // logo and subtitle 
+    .main-section{
+        padding-top: 65%;
+        height: 101vh;
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+
+    // subtitle
+    #logo-text{
+        font-family: mono45-headline, monospace;
+        font-weight: 300;
+    }
+
+    // contents and footer
+    .bottom-section{
+        height: 100vh;
+        padding-top: 10vh;
+        background-color: #000;
+    }
+
+    // links text
+    .item-text{
+        font-family: mono45-headline, monospace;
+        font-size: 5rem;
+        color: #fff;
+        &:hover{
+            color: #34d698;
+        }
+        text-decoration: none;
+    }
+
+    // links div
+    .section-item{
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+    
+
+    
+
+    
+
+
+
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 3%;
+    left: 3%;
+    font-size: 0.75em;
+}
+
+
+
+// nav ---------------------
+
+
+
+// ul
+#myLinks{
+    display: none;
+    list-style-type: none;
+    text-align: right;
+    padding-top: 5%;
+    // background-color: #fff;
+    padding-bottom: 10%;
+
+    
+    
+
+
+
+    .nav-item{
+        text-decoration: none;
+        font-family: mono45-headline, monospace;
+        color: #000;
+        font-size: 5em;
+        
+
+        &:hover{
+            color: #34d698
+        }
+
+    }
+}
+
+.nav-bar{
+    padding: 10%;
+    // background-color: #fff;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99;
+}
+
+.bars{
+    color: #34d698;
+    font-size: 20vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10% 10%;
+}
+
+.logo{
+    width: 30vw;
+}
+
+// about 
+
+.page-wrapper-about{
+    // background-color: #000;
+    min-height: 100vh;
+    
+}
+
+.about-section, .contact-section, .projects-section{
+    position: absolute;
+    top: 35vw;
+    left: 10vw;
+    width: 80vw;
+
+    
+}
+
+.comp-images-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5vh;
+
+
+    .comp-images{
+        width: 80vw;
+        margin-bottom: 5vh;
+        // height: auto;
+    }
+}
+
+// contact -----------------------------------
+
+.details-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    i{
+        width: 5vw;
+        font-size: 1.5em;
+        color: #34d698
+    }
+    p{
+        padding-left: 5vw;
+        font-size: 1.25em;
+    }
+    .fa-mobile{
+        padding-left: 1.5%;
+    }
+}
+
+.d-top{
+    padding-bottom: 2vh;
+}
+
+.c-details{
+    font-family: serifa, serif;
+    padding-bottom: 4vh;
+    
+}
+
+.c-fields{
+    label{
+        font-family: mono45-headline, monospace;
+        font-size: 1.25em;
+
+    }
+    input, textarea{
+        border: 1px solid #34d698;
+        resize: none;
+        padding: 2%;
+        margin-bottom: 2%;
+        font-family: serifa, serif;
+    }
+
+    textarea{
+        height: 10vh;
+    }
+    .form-fields{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.header{
+    font-family: mono45-headline, monospace;
+    font-weight: 300;
+    font-size: 4em;
+    padding-bottom: 5vh;
+}
+
+.submit{
+    // color: #34d698;
+    font-family: mono45-headline, monospace;
+    font-size: 3em;
+    background-color: #fff;
+    border: 2px solid #34d698;
+    padding: 3%;
+    margin-top: 3vh;
+    width: 100%;
+    &:hover{
+        background-color: #34d698;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+}
+
+
+
+// projects -----------------------------
+.projects{
+
+
+    .card{
+        // background-color: rgba(52, 214, 152, 0.3);
+        border: 1px solid #34d698;
+        padding: 5%;
+        // height: 25vh;
+        margin: 0 auto 15%;
+        cursor: pointer;
+        .project-image{
+            width: 100%;
+            height: auto;
+        }
+        .card-text{
+            font-family: serifa, serif;
+            margin: 5% 3%;
+            font-size: 1.5em;
+            color: #34d698;
+
+        }
+        // .img-placeholder{
+        //     height: 70%;
+        //     background-color: #fff;
+        //     margin: 3%;
+        // }
+
+    }
+}
+
+
+
+// about -----------------------------------
+
+.info-section{
+    margin-bottom: 10%;
+
+
+    .heading{
+        font-family: mono45-headline, monospace;
+        font-weight: 300;
+        font-size: 2em;
+        color: #34d698;
+    }
+    .about-content{
+        font-family: serifa, serif;
+        word-wrap:break-word;
+
+    }
+}
+
+
+@import 'responsive';
+
+
+
+
+
